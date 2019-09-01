@@ -79,7 +79,7 @@ header {
 
 .mobile__navigation li a {
     text-decoration: none;
-    padding: 10px 10px; color: #fff;
+    padding: 10px 6px; color: #fff;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -103,7 +103,7 @@ header {
 
 .show_the_text {
      margin-top: -100px;
-    /* border: 1px solid #f00; */
+    border: 1px solid #f00;
     width: 350px;
     color: #d6d6d6;
     font-family: 'Courier New', Courier, monospace;
@@ -169,6 +169,7 @@ header {
         margin-top: -140px;
         width: 100%;
         height: 90px;
+        margin-left: -25px;
     }
     .mobile__greetings {
         color: #d6d6d6;
@@ -176,6 +177,9 @@ header {
         padding-left: 10%;
         border: 1px solid #f0f;
         background-color: #fff;
+    }
+    .display_text {
+        padding-left: 0;
     }
 }
 
