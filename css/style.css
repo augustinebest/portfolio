@@ -61,6 +61,28 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.mobile__navigation {
+    border-bottom: 1px solid #d6d6dd;
+    width: 100%; height: 60px;
+    display: flex;
+    justify-content: center; align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.mobile__navigation li {
+    border-left: 1px solid #fff;
+}
+
+.mobile__navigation li:first-child {
+    border-left: none;
+}
+
+.mobile__navigation li a {
+    text-decoration: none;
+    padding: 10px 10px; color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .background__frame {
     /* margin-top: 80px; */
     width: 100%;
@@ -73,8 +95,32 @@ header {
 .display_text {
     /* border: 1px solid #f00; */
     width: 45%;
-    height: 300px;
+    padding-left: 20px;
     background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+.show_the_text {
+     margin-top: -100px;
+    /* border: 1px solid #f00; */
+    width: 350px;
+    color: #d6d6d6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.word {
+    font-size: 22px;
+}
+.augustine {
+    font-size: 28px;
+}
+.pitch {
+    font-size: 18px;
+}
+
+.main-element {
+    text-decoration: underline;
 }
 
 .display_image {
@@ -86,7 +132,7 @@ header {
 }
 
 .show_the_image {
-    margin-top: -70px;
+    margin-top: -20px;
     /* border: 1px solid #f00; */
     width: 78%;
     height: 500px;
@@ -105,16 +151,37 @@ header {
         width: 60%;
     }
     .show_the_image {
-        margin-top: -40px;
+        margin-top: -10px;
     }
 }
 
 @media (max-width: 847px) {
+    nav {
+        display: none;
+    }
     .display_text {
         display: none;
     }
     .display_image {
         width: 100%;
+    }
+    .display__greetings {
+        margin-top: -140px;
+        width: 100%;
+        height: 90px;
+    }
+    .mobile__greetings {
+        color: #d6d6d6;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 10%;
+        border: 1px solid #f0f;
+        background-color: #fff;
+    }
+}
+
+@media (min-width: 847px) {
+    .mobile__navigation {
+        display: none;
     }
 }
 
@@ -127,14 +194,14 @@ header {
 
 @media (max-width: 423px) {
     .show_the_image {
-        margin-left: -50px;
+        margin-left: -25px;
         width: 120%;
     }
 }
 
 @media (max-width: 623px) {
     .display__greetings {
-        margin-top: -80px;
+        margin-top: -140px;
         width: 100%;
         height: 90px;
     }
@@ -144,11 +211,5 @@ header {
         padding-left: 10%;
         border: 1px solid #f0f;
         background-color: #fff;
-    }
-    .word {
-        font-size: 22px;
-    }
-    .augustine {
-        font-size: 28px;
     }
 }
