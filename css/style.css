@@ -52,7 +52,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: none;
     color: #fff;
     position: fixed;    
 }
@@ -273,19 +273,19 @@ header {
     background-image: url('../img/project.png');
     background-position: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .project_image2 {
     background-image: url('../img/project.png');
     background-position: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .project_image3 {
     background-image: url('../img/project.png');
     background-position: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .__project button {
     border: 1px solid rgb(216, 46, 46);
@@ -419,6 +419,8 @@ header {
     opacity: 0; 
     visibility: hidden;
     border: 1px solid #d6d6d6;
+    display: flex; justify-content: center; align-items: center;
+    /* padding-top: 4px; */
 }
 
 .show {
@@ -428,13 +430,9 @@ header {
 }
 
 .backToTop::after {
-    content: "\005E";
-    /* font-family: FontAwesome; */
     font-weight: bold;
-    /* font-style: normal; */
     font-size: 30px;
     line-height: 36px;
-    /* color: #000; */
 }
 
 @media (max-width: 921px) {

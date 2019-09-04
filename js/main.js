@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#about').click(function() {
         $('html, body').animate({
-            scrollTop: $('#about_section').offset().top-150
+            scrollTop: $('#about_section').offset().top-250
         }, 'slow')
     })
     $('#projects').click(function() {
@@ -53,7 +53,7 @@ $(document).ready(function() {
     // Footer Links
     $('#about_').click(function() {
         $('html, body').animate({
-            scrollTop: $('#about_section').offset().top-150
+            scrollTop: $('#about_section').offset().top-200
         }, 'slow')
     })
     $('#projects_').click(function() {
@@ -83,8 +83,10 @@ $(document).ready(function() {
         }
         if($(window).scrollTop() > 400) {
             $('nav').addClass('fixed');
+            $('.mobile__header').css('background-color', '#000');
         } else {
             $('nav').removeClass('fixed');
+            $('.mobile__header').css('background-color', 'none');
         }
     })
     $('.backToTop').click(function(e) {
