@@ -15,20 +15,31 @@
             </div>
             <div>
                 <ul class="navigation">
-                    <li><a href="javascript:;">About</a></li>
-                    <li><a href="javascript:;">Projects</a></li>
-                    <li><a href="javascript:;">Contact</a></li>
-                    <li><a href="javascript:;">Talks</a></li>
+                    <li id="about"><a href="javascript:;"><span class="span">About</span></a></li>
+                    <li id="projects"><a href="javascript:;"><span class="span">Projects</span></a></li>
+                    <li id="talks"><a href="javascript:;"><span class="span">Talks</span></a></li>
+                    <li id="contact"><a href="javascript:;"><span class="span">Contact</span></a></li>
                 </ul>
             </div>
         </div>
     </nav>
-        <div class="mobile__navigation">
-                <ul class="mobile__navigation">
-                    <li><a href="javascript:;">About</a></li>
-                    <li><a href="javascript:;">Projects</a></li>
-                    <li><a href="javascript:;">Contact</a></li>
-                    <li><a href="javascript:;">Talks</a></li>
+    <div class="mobile__header">
+        <div id="logo"><a href="javascript:;">AI</a></div>
+        <div class="hamburger" id="hamburger">
+            <div class="hamburger__content">
+                <div class="caret"></div>
+                <div class="caret"></div>
+                <div style="margin-bottom: 0" class="caret"></div>
+            </div>
+        </div>
+    </div>
+    <div class="backdrop_mobile" id="backdrop"></div>
+        <div class="sidebar__navigation" id="sidebar">
+                <ul>
+                    <li id="about_mobile"><a href="javascript:;">About</a></li>
+                    <li id="projects_mobile"><a href="javascript:;">Projects</a></li>
+                    <li id="talks_mobile"><a href="javascript:;">Talks</a></li>
+                    <li id="contact_mobile"><a href="javascript:;">Contact</a></li>
                 </ul>
         </div>
     <div class="background__frame">
@@ -37,7 +48,7 @@
                 <div class="word">Hello World!</div>
                 <div class="augustine">I'm Augustine</div>
                 <div class="pitch">
-                    I am <span class="main-element" data-elements="a JavaScript Developer, Passionate about the web, Creative and Resilience"></span>
+                    I am <span class="main-element" data-elements="A JavaScript Developer., Passionate about the web., Creative and Resilience."></span>
                 </div>
             </div>
         </div>
@@ -50,10 +61,121 @@
             <div class="word">Hello World!</div>
             <div class="augustine">I'm Augustine</div>
             <div class="pitch">
-                I am <span class="main-element" data-elements="a JavaScript Developer, Passionate about the web, Creative and Resilience"></span>
+                I am <span class="main-element" data-elements="A JavaScript Developer., Passionate about the web., Creative and Resilience."></span>
             </div>
         </div>
     </div>
+
+    <!-- About Page Starts -->
+    <div class="about__me page_section">
+        <div class="about__content" id="about_section">
+            <h3>About me</h3>
+            <p>
+                My Skills, core values, Technologiess Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iure natus sint nesciunt laboriosam, esse minus unde deleniti id nemo amet minima sunt ex, atque recusandae. Vitae dicta tenetur nisi!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nostrum sit? Ab corporis alias fugiat? Dolores quod voluptatum vel, error, tenetur, quidem consequuntur sit eaque cum repellat provident iste ratione.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsum commodi laudantium esse inventore aliquid nisi fugit ex excepturi doloremque molestiae, sed veritatis id omnis? Temporibus tenetur fugit quod deleniti.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsum odio perspiciatis, ullam ipsam, porro minus quas eum facilis natus, dignissimos deserunt! Dicta dolorem eaque sit illo culpa consectetur animi.
+            </p>
+        </div>
+    </div>
+    <!-- About Page Ends -->
+
+    <!-- Projects Page Starts -->
+    <div class="project__page page_section">
+        <div class="proj__" id="project_section">
+            <h3 class="project__description">Projects</h3>
+        </div>
+        <div class="project__content">
+            <div class="__project">
+                <div class="project_image1"></div>
+                <div class="project_content">
+                    <div class="project__desc">
+                        Repellat ipsa laborum, ab, molestias aliquid veritatis vero suscipit quia quas laudantium aliquam eaque architecto corrupti nesciunt est rerum esse perferendis placeat.
+                        <br /><br /><button style="background-color: #fff; border: 1px solid #000; border-radius: 3px; box-shadow: 1px 4px 6px #eee"><a style="color: #000;" href="https://github.com/augustinebest">Github</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><a href="#">Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="__project">
+                <div class="project_image2"></div>
+                <div class="project_content">
+                    <div class="project__desc">
+                        Repellat ipsa laborum, ab, molestias aliquid veritatis vero suscipit quia quas laudantium aliquam eaque architecto corrupti nesciunt est rerum esse perferendis placeat.
+                        <br /><br /><button style="background-color: #fff; border: 1px solid #000; border-radius: 3px; box-shadow: 1px 4px 6px #eee"><a style="color: #000;" href="https://github.com/augustinebest">Github</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button><a href="#">Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="__project">
+                <div class="project_image3"></div>
+                <div class="project_content">
+                    <div class="project__desc">
+                        Repellat ipsa laborum, ab, molestias aliquid veritatis vero suscipit quia quas laudantium aliquam eaque architecto corrupti nesciunt est rerum esse perferendis placeat.
+                        <br /><br /><button style="background-color: #fff; border: 1px solid #000; border-radius: 3px; box-shadow: 1px 4px 6px #eee"><a style="color: #000;" href="https://github.com/augustinebest">Github</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="demo"><a href="#">Demo</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view">
+            <div class="view__more"><button>View more</button></div>
+        </div>
+    </div>
+    <!-- Projects Page Ends -->
+
+    <!-- Talk Page Begin -->
+    <div class="talk__page page_section">
+        <div class="talk__" id="talk_section">
+            <h3 class="talk__description">Talks</h3>
+            <div class="talk__series">
+                <div class="talk__image"></div>
+                <div class="talk__content">
+                    <p class="talk_title"><b>Fast/Kotlin for developers</b></p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quasi dolore unde itaque hic sit minima accusamus, earum eveniet aliquam molestiae atque molestias enim pariatur fugiat obcaecati repellat. Harum, facilis?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique nihil voluptatem distinctio accusantium aperiam nisi quis mollitia officia, assumenda voluptatibus unde asperiores ea obcaecati dolores? Laboriosam numquam corrupti nisi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Talk Page Ends -->
+
+    <!-- Footer and Contact Page Starts -->
+    <div class="footer page_section">
+        <div class="footer__inner">
+            <div class="footer__row" id="contact_section">
+                <div class="footer__content">
+                    AI
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__content">
+                    <div class="details">contact me</div>
+                    <div class="underlined"></div>
+                    <div class="contact__"><a href="https://github.com/augustinebest">Github</a></div>
+                    <div class="contact__"><a href="https://github.com/augustinebest">Twitter</a></div>
+                    <div class="contact__"><a href="https://github.com/augustinebest">LinkedIn</a></div>
+                    <div class="contact__"><a href="https://github.com/augustinebest">Medium</a></div>
+                    <div class="contact__"><a href="https://github.com/augustinebest">Email</a></div>
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__content">
+                    <div class="details">links</div>
+                    <div class="underlined"></div>
+                    <div id="about_" class="links__"><a href="javascript:;">About</a></div>
+                    <div id="projects_" class="links__"><a href="javascript:;">Projects</a></div>
+                    <div id="talks_" class="links__"><a href="javascript:;">Talks</a></div>
+                    <div id="contact_" class="links__"><a href="javascript:;">Contact</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer and Contact Page Ends -->
+
+    <!-- Back to the top Starts -->
+    <div class="backToTop"></div>
+    <!-- Back to the top Ends -->
+
+
     <!-- Libraries -->
     <script src='js/jquery-min.js'></script>
     <script src='js/typed.js'></script>
@@ -61,5 +183,21 @@
 
     <!-- My JS -->
     <script src="js/main.js"></script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const sidebar = document.getElementById('sidebar');
+        const backdrop = document.getElementById('backdrop');
+
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.add('active');
+            backdrop.style.display = 'block';
+        })
+
+        backdrop.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            backdrop.style.display = 'none';
+        })
+
+    </script>
 </body>
 </html>
