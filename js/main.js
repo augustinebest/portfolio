@@ -86,7 +86,7 @@ $(document).ready(function() {
             $('.mobile__header').css('background-color', '#000');
         } else {
             $('nav').removeClass('fixed');
-            $('.mobile__header').css('background-color', 'none');
+            $('.mobile__header').css('background-color', 'transparent');
         }
     })
     $('.backToTop').click(function(e) {
