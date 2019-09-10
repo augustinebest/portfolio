@@ -10,6 +10,31 @@ a {
     outline: none;
 }
 
+h3 {
+    margin: 0; padding: 0;
+}
+.__style {
+    width: 50px; height: 10px;
+    border: 1px solid #ff0;
+    background-color: #ff0;
+    margin-bottom: 40px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 5px;
+}
+.hit {
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    cursor: pointer;
+}
+.tech {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    padding: 0px 3px;
+}
+.values {
+    text-decoration: underline
+}
+
 ul {
     margin: 0; padding: 0;
     list-style: none;
@@ -226,9 +251,12 @@ header {
 
 .about__content {
     width: 600px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px 12px;
-    
+    color: #1e1d1d;
+    letter-spacing: .6px;
+    font-size: 15.4px;
+    font-family: Eina03, Open Sans, Helvetica, Helvetica Neue, Arial;
+    text-rendering: optimizelegibility;
 }
 /* About PAge Ends */
 
@@ -238,7 +266,11 @@ header {
     border-bottom: 1px solid #eee;
     box-shadow: 1px 4px 6px #eee;
     padding: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1d1d;
+    letter-spacing: .6px;
+    font-size: 15.4px;
+    font-family: Eina03, Open Sans, Helvetica, Helvetica Neue, Arial;
+    text-rendering: optimizelegibility;
     margin-bottom: 60px;
 }
 
@@ -336,7 +368,11 @@ header {
     height: 700px;
     box-shadow: 1px 4px 6px #eee;
     padding: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1d1d;
+    letter-spacing: .6px;
+    font-size: 15.4px;
+    font-family: Eina03, Open Sans, Helvetica, Helvetica Neue, Arial;
+    text-rendering: optimizelegibility;
     margin-bottom: 20px;
 }
 .talk__series {
@@ -545,6 +581,9 @@ header {
     .about__content {
         border-right: 1px solid #d6d6d6;
         border-left: 1px solid #d6d6d6; 
+    }
+    .backToTop {
+        right: 25px;
     }
 }
 
